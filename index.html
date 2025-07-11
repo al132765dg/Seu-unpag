@@ -5,63 +5,65 @@
   <title>الجامعة السعودية الإلكترونية</title>
   <style>
     body {
-      font-family: 'Tahoma', sans-serif;
-      background-color: #f5f5f5;
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    header {
       text-align: center;
-      padding: 40px;
+      margin-bottom: 30px;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
     }
     h1 {
-      color: #0b3d91;
+      margin-top: 10px;
+      font-size: 2em;
+      color: #004aad;
     }
-    ul {
-      list-style-type: none;
+    nav ul {
+      list-style: none;
       padding: 0;
+      margin: 20px 0;
     }
-    li {
-      margin: 15px 0;
+    nav li {
+      margin-bottom: 10px;
     }
-    a {
+    nav a {
       text-decoration: none;
-      color: #0077cc;
-      font-size: 18px;
-    }
-    a:hover {
-      text-decoration: underline;
+      color: #004aad;
+      font-size: 1.1em;
     }
     button {
-      background-color: #0b3d91;
+      background-color: #004aad;
       color: white;
       border: none;
       padding: 10px 20px;
-      font-size: 16px;
-      border-radius: 6px;
+      font-size: 1em;
       cursor: pointer;
-      margin-top: 20px;
     }
     button:hover {
-      background-color: #09407b;
-    }
-    img {
-      width: 120px;
-      margin-bottom: 20px;
+      background-color: #003180;
     }
   </style>
 </head>
 <body>
-  <!-- شعار الجامعة -->
-  <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/3/3d/SEU_logo.png/250px-SEU_logo.png" alt="شعار الجامعة السعودية الإلكترونية">
-
-  <!-- العنوان -->
-  <h1>مرحباً بكم في الجامعة السعودية الإلكترونية</h1>
-
-  <!-- روابط الكليات والخدمات -->
-  <ul>
-    <li><a href="#">كلية الحوسبة والمعلوماتية</a></li>
-    <li><a href="#">كلية العلوم الإدارية والمالية</a></li>
-    <li><a href="#">الخدمات الطلابية</a></li>
-  </ul>
-
-  <!-- زر تسجيل الدخول -->
-  <button onclick="alert('سيتم توجيهك لتسجيل الدخول لاحقاً')">تسجيل الدخول</button>
+  <header>
+    <img src="https://seu.edu.sa/ar/media/5485/round-ai.png" alt="شعار الجامعة السعودية الإلكترونية">
+    <h1>مرحباً بكم في الجامعة السعودية الإلكترونية</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="https://seu.edu.sa/ar/fcsi/">كلية الحوسبة والمعلوماتية</a></li>
+      <li><a href="https://seu.edu.sa/ar/fafs/">كلية العلوم الإدارية والمالية</a></li>
+      <li><a href="https://seu.edu.sa/ar/studentservices/">الخدمات الطلابية</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <button onclick="window.location.href='https://seu.edu.sa/ar/login'">تسجيل الدخول</button>
+  </footer>
 </body>
 </html>

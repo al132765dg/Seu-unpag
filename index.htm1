@@ -1,0 +1,18 @@
+!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>الجامعة السعودية الإلكترونية</title>
+</head>
+<body>
+    <h1>الجامعة السعودية الإلكترونية</h1>
+    <ul>
+        <li><a href="#">كلية الحوسبة والمعلوماتية</a></li>
+        <li><a href="#">كلية العلوم الصحية</a></li>
+        <li><a href="#">كلية العلوم والدراسات النظرية</a></li>
+        <li><a href="#">الخدمات الطلابية</a></li>
+    </ul>
+    <button onclick="alert('تسجيل الدخول')">تسجيل الدخول</button>
+</body>
+</html>
+  
